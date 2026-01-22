@@ -1,0 +1,36 @@
+# Dependências
+node_modules/
+*/node_modules/
+
+# Arquivos de lock (opcional)
+package-lock.json
+*/package-lock.json
+
+# Cache de build
+dist/
+build/
+.vite/
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Pasta de saída
+out/
